@@ -1,13 +1,74 @@
+/* sets the margin of all the element to 10px on all sides*/
+{
+    margin: 10px;
+}
 body {
-    background-color: black;
-    font-family: arial;
-    color: white;
-    
+    background-color: white;
 }
 
-h1 {
-    color: grey;
-    font-family: verdana;
+/* Home section which has the app name and nav bar */
+#home{
+    background-color: rgb(0, 128, 87);
+    padding-bottom: 0.25cm;
+    margin-left:-0.25cm;
+    margin-right:-0.25cm;
+    margin-top:-0.25cm;
+    padding-top: 0.5cm;
+    padding-bottom: 1.25cm;
+}
+
+/* Application name inside home section */
+header {
+    font-size: 55px;
+    color: rgb(240, 234, 245);
+    float: left;
+    margin-top: -0.25cm;
+    padding-left: 1cm;
+  }
+
+/* Navigation bar container */
+.topdiv{
+    float: right;
+    padding-right: 1cm;
+}
+
+/* Navigation bar buttons */
+.topmenu{
+    color: white;
+    background-color: rgb(0, 128, 87);
+    /* margin: 10px; */
+    padding: 10px;
+    font-size: 17px;
+    text-decoration:none;
+    border-radius: 1mm;
+    border-color: rgb(0, 128, 87);
+}
+
+/* .topmenu::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.topmenu:hover::after{
+    transform: scale(1);
+
+} */
+
+.topmenu:hover {
+    color: white;
+    /* font-weight: bolder; */
+    text-decoration: underline;
+  }
+
+.image{
+    float: right;
+    padding-right: 1.25cm;
+    padding-top: 0.75cm;
 }
 
 .maindiv {
@@ -16,7 +77,20 @@ h1 {
     width: 300px;
     padding: 20px;
     border-radius: 25px;
-    text-align: center;
+    text-align: left;
+    padding-left: 1cm;
+    margin-left: 2cm;
+    margin-top: 1cm;
 }
 
 
+.ftr{
+    padding-top: 0.25cm;
+    padding-left: 2cm;
+}
+
+.para{
+    color: rgb(0, 128, 87);
+    padding-top: 0.5cm;
+    font-size: 17px;
+}
