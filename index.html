@@ -6,38 +6,75 @@
         <title>Simple Interest Calculator</title>
     </head>
     <body>
-        <div class="maindiv">
-            <h1>Simple Interest Calculator</h1>
-
-            Amount <input type="number"  id="principal">  <br/>
-
-            Rate <input type="range" id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()"> 
-            <span id="rate_val">
-                10.25
-            </span>% <br/>
-
-            No. of Years 
-            <input type="number" id="years" list="all_years">
-            <datalist id="all_years">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </datalist>
-            <br />
-            Interest : <span id="result"></span><br/>
-
-            <button onclick="compute()">Compute Interest</button>
+        <section id="home">
+            <header>Simple Interest Calculator</header>
+            <nav>
+                <div class="topdiv">
+                    <a href="https://akshit285.github.io/Unit-Conversions/"><button class="topmenu">Unit Conversion Calculator</button></a>
+                </div>
+            </nav>
+        
+        <div style="clear:both;"></div>
+        <!-- <hr/> -->
+        <div class="image">
+            <img src="Simple-Interest-Calculator.jpeg" height= "200px" width="600px">
         </div>
+        <div class="maindiv">
+                Amount <input type="number"  id="principal">  <br/>
 
-        <footer>
+                Rate <input type="range" id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()"> 
+                <span id="rate_val">
+                    10.25
+                </span>% <br/>
+
+                No. of Years 
+                <input type="number" id="years" list="all_years">
+                <datalist id="all_years">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <br />
+                Interest : <span id="result"></span><br/>
+
+                <button onclick="compute()">Compute Interest</button>
+            </div>
+        <footer class="ftr">
             &#169; This Calculator belongs to --Akshit Jain--
         </footer>
+    </section>
+    <div class="para">
+        <h2>What is Simple Interest, A = P (1+rt)</h2>
+        The rate at which you borrow or lend money is called the simple interest. If a borrower takes money from a lender, an extra amount of money is paid back to the lender. The borrowed money which is given for a specific period is called the principal. The extra amount which is paid back to the lender for using the money is called the interest.
+        
+        You calculate the simple interest by multiplying the principal amount by the number of periods and the interest rate. Simple interest does not compound, and you don’t have to pay interest on interest. In simple interest, the payment applies to the month’s interest, and the remainder of the payment will reduce the principal amount.
+        What is a Simple Interest Calculator?
+        A simple interest calculator is a utility tool that calculates the interest on loans or savings without compounding. You may calculate the simple interest on the principal amount on a daily, monthly, or yearly basis. The simple interest calculator has a formula box, where you enter the principal amount, annual rate, and period in days, months, or years. The calculator will display interest on the loan or the investment.
+        
+        <h2>How Does Simple Interest Calculators work?</h2>
+        The simple interest calculator will show the accrued amount that includes both principal and the interest. The simple interest calculator works on the mathematical formula:
+        
+        A = P (1+rt)
+        
+        P = Principal Amount
+        R = Rate of interest
+        t = Number of years
+        A = Total accrued amount (Both principal and the interest)
+        
+        Interest = A – P.
+        
+        Let’s understand the workings of the simple interest calculator with an example. The principal amount is Rs 10,000, the rate of interest is 10% and the number of years is six. You can calculate the simple interest as:
+        
+        A = 10,000 (1+0.1*6) = Rs 16,000.
+        
+        Interest = A – P = 16000 – 10000 = Rs 6,000.
+    </div>
     </body>
 </html>
