@@ -17,7 +17,8 @@ Developed a Simple Interest Calculator Using HTML, CSS, JavaScript [with Courser
 #### 4. Example Code
 #### 5. Conclusion
 
-![image](https://github.com/akshit285/Simple-Interest-Calculator/assets/98079528/25523fcb-4d15-440d-8623-d3dd25130432)
+![Screenshot (79)](https://github.com/akshit285/Simple-Interest-Calculator/assets/98079528/57d5a7a7-a0cb-45be-a3c6-2ea3a8c6662f)
+
 
 
 ## 1. Introduction <a name="introduction"></a>
