@@ -17,6 +17,9 @@ Developed a Simple Interest Calculator Using HTML, CSS, JavaScript [with Courser
 #### 4. Example Code
 #### 5. Conclusion
 
+![image](https://github.com/akshit285/Simple-Interest-Calculator/assets/98079528/25523fcb-4d15-440d-8623-d3dd25130432)
+
+
 ## 1. Introduction <a name="introduction"></a>
 The Simple Interest Calculator is a web-based tool that calculates the simple interest on a principal amount based on the provided interest rate and time period. This documentation provides an overview of the calculator's features, usage instructions, and implementation details.
 
